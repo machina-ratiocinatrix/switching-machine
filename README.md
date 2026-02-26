@@ -1,7 +1,7 @@
 # Switching Machine
 Switching-Machine replaces a switchman.
 ```bash
-  echo '[{"role": "user", "content": "I have a question..."}]' \
+  echo '[{"role": "user", "content": "I have a question for Reasoning-Machine..."}]' \
     | uvx switching-machine \
         --provider-api-key=sk-ant-api... \
         --github-token=ghp_... \
