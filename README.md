@@ -1,18 +1,18 @@
-# Machine name
-Machine description
+# Switching Machine
+Switching-Machine replaces a switchman.
 ```bash
   echo '[{"role": "user", "content": "I have a question..."}]' \
-    | uvx machine-name \
+    | uvx switching-machine \
         --provider-api-key=sk-ant-api... \
         --github-token=ghp_... \
         --mode=single
 ```
 Or:
 ```bash
-  pip install machine-name
+  pip install switching-machine
 ```
 Then:
 ```Python
   # Python
-  import machine_name
+  import switching_machine
 ```
